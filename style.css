@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centercalcy{
+   height: 100vh;
+   display: flex;
+   justify-content: center; 
+   align-items:center;
+
+}
+body{
+    background-image: url('img/windows-10-uhd-4k-wallpaper.jpg');
+    background-size:100%;
+    background-position: right;
+}
+form{
+    width: 400px;
+    height: 520px;
+    box-shadow: 0 0 10px 1px gray;
+}
+#app_name{
+    width: inherit;
+    font-size: .8rem;
+    background-color: #303030;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 2px 0 2px 10px;
+}
+#display_anwser{
+width: inherit;
+background-color: #303030;
+height: 100px;
+color: white;
+text-align: right;
+border: none;
+outline: none;
+font-size: 2rem;
+}
+.layer-1{
+    width: inherit;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    flex: 1;
+    font-size: 1.4rem;
+    color: white;
+    border: 1px solid #505f5f;
+    outline: none;
+
+}
+input:hover{
+    background-color: #474747;
+    border: 1px solid gray;
+}
+.main_num{
+    background-color: #101011;
+}
+.oper{
+    background-color: #303030;
+}
+.layer-2{
+    width: inherit;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.equal{
+    background-color: cadetblue;
+}
+.equal:hover{
+    background-color: darkcyan;
+}
